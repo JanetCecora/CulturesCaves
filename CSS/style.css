@@ -1,0 +1,38 @@
+html {
+    background: #D3D3D3;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+p {
+  line-height: 1.75;
+}
+
+
+/* Navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #a60000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #8B0000 (dark red) on hover */
+li a:hover {
+  background-color: #8B0000;
